@@ -3,7 +3,7 @@ import logo2 from "../../assets/logo2.png"
 import copy from "../../assets/copy.png"
 const Calculator = () => {
   return (
-    <div className='px-10 md:px-[20px] lg:px-[70px]'>
+    <div className='px-10 md:px-[20px] lg:px-[70px] mb-[100px]'>
         <div className='bg-white py-[50px] px-[10px] sm:p-[50px] rounded-[50px] shadow-xl'>
             <div className='flex flex-col sm:flex-row justify-between text-center items-center flex-wrap text-[18px] font-semibold'>
                 <div className='w-[150px] flex justify-center pb-[15px] mr-[20px]'>
