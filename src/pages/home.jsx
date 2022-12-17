@@ -3,10 +3,11 @@ import Header from "../components/home/header";
 import Morachain from "../components/home/morachain";
 import Calculator from "../components/home/calculator";
 import Tokenmora from "../components/home/token";
-import Worldfirst from "../components/home/worldfirst";
+// import Worldfirst from "../components/home/worldfirst";
 import Tokenization from "../components/home/tokenization";
 import Metaverse from "../components/home/metaverse";
 import Whymorchain from "../components/home/whymorchain";
+import Play from "../components/home/play";
 const Home = () => {
   return (
     <>
@@ -32,6 +33,7 @@ const Home = () => {
       <Tokenization />
       <Metaverse />
       <Whymorchain />
+      <Play />
     </>
   );
 };
