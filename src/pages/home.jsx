@@ -3,7 +3,7 @@ import Header from "../components/home/header";
 import Morachain from "../components/home/morachain";
 import Calculator from "../components/home/calculator";
 import Tokenmora from "../components/home/token";
-// import Worldfirst from "../components/home/worldfirst";
+import Worldfirst from "../components/home/worldfirst";
 import Tokenization from "../components/home/tokenization";
 import Metaverse from "../components/home/metaverse";
 import Whymorchain from "../components/home/whymorchain";
@@ -32,7 +32,7 @@ const Home = () => {
       </div>
     </div>
       <Tokenmora />
-      {/* <Worldfirst /> */}
+      <Worldfirst />
       <Tokenization />
       <Metaverse />
       <Play />
