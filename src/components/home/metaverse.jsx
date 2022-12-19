@@ -2,7 +2,7 @@ import React from 'react'
 import robot from "../../assets/robot.png"
 const Metaverse = () => {
   return (
-    <section className="text-white body-font  bg-black mb-[100px]">
+    <section className="text-white body-font  bg-black mb-[100px] pb-[20px]">
   <div className=" pl-[20px] md:pl-[80px]  mx-auto flex flex-col-reverse md:flex-row flex-wrap">
     <div className='md:w-[50%] flex flex-col justify-center pr-[20px]'>
     <h2 className="sm:text-5xl text-2xl font-medium title-font mb-2 md:w-2/5">Metaverse</h2>

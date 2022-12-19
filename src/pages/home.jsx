@@ -8,6 +8,7 @@ import Tokenization from "../components/home/tokenization";
 import Metaverse from "../components/home/metaverse";
 import Whymorchain from "../components/home/whymorchain";
 import Play from "../components/home/play";
+import Fractional from "../components/home/fractional";
 const Home = () => {
   return (
     <>
@@ -32,8 +33,9 @@ const Home = () => {
       {/* <Worldfirst /> */}
       <Tokenization />
       <Metaverse />
-      <Whymorchain />
       <Play />
+      <Whymorchain />
+      <Fractional />
     </>
   );
 };
