@@ -9,6 +9,8 @@ import Metaverse from "../components/home/metaverse";
 import Whymorchain from "../components/home/whymorchain";
 import Play from "../components/home/play";
 import Fractional from "../components/home/fractional";
+import Utility from "../components/home/utility";
+import Footer from "../components/home/footer";
 const Home = () => {
   return (
     <>
@@ -36,6 +38,8 @@ const Home = () => {
       <Play />
       <Whymorchain />
       <Fractional />
+      <Utility />
+      <Footer />
     </>
   );
 };

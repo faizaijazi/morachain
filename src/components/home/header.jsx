@@ -1,11 +1,11 @@
 import React from 'react'
 import logo from "../../assets/logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faX } from '@fortawesome/free-solid-svg-icons'
 const Header = () => {
   return (
    <header className='w-[100%]'>
-        <nav className='bg-white py-[30px] flex items-center justify-between  px-[50px]'>
+        <nav className='bg-white py-[30px] flex items-center justify-between  px-[50px] z-[99]'>
             <div className=' w-full md:w-[200px] flex justify-between items-center'>
                 <img src={logo}  alt="" className='h-[48px] md:h-[72px]' />
                 <FontAwesomeIcon icon={faBars} className="md:hidden text-[1.5rem] font-bold" />
@@ -29,6 +29,20 @@ const Header = () => {
             </div>
             </div>         
         </nav>
+        {/* <div className='h-[100vh] bg-white w-[300px] absolute z-[999] top-0'>
+        <div className='flex justify-end pt-[20px] pr-[20px]'>
+                <FontAwesomeIcon icon={faX} className="md:hidden text-[1.5rem] font-bold" />
+                </div>
+            <div className='mt-[50px]'>
+            <ul className='h-[300px] flex flex-col items-center justify-around font-bold'>
+                    <li><a href=".">Home</a></li>
+                    <li><a href=".">Discover</a></li>
+                    <li><a href=".">Staking</a></li>
+                    <li><a href=".">NFTs</a></li>
+                    <li><a href=".">NTS's Presale</a></li>
+                </ul>
+            </div>
+        </div> */}
    </header>
   )
 }
