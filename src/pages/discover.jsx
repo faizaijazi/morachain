@@ -3,6 +3,8 @@ import Header from '../components/home/header'
 import Sale from '../components/discover/sale'
 import Nfts from '../components/discover/nfts'
 import Mortam from '../components/discover/mortam'
+import Roadmap from '../components/discover/roadmap'
+import Footer from "../components/home/footer"
 const Discover = () => {
   return (
     <>
@@ -24,6 +26,8 @@ const Discover = () => {
     </div>
       <Nfts />
       <Mortam />
+      <Roadmap />
+      <Footer />
     </>
   )
 }

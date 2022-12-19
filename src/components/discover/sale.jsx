@@ -3,7 +3,7 @@ import dog from "../../assets/dog.png"
 const Sale = () => {
   return (
     <section className=" body-font">
-  <div className="container px-8 md:px-[20px] lg:px-10 pt-24  pb-[20px] md:pb-[0px] mx-auto flex flex-wrap md:flex-nowrap items-center">
+  <div className="container px-8 md:px-[20px] lg:px-10 pt-24 pb-[20px] md:pb-[50px] mx-auto flex flex-wrap md:flex-nowrap items-center">
   <div className="lg:w-[40%] md:w-1/2 rounded-lg flex flex-col md:ml-auto w-full mt-10 md:mt-0">
       <img src={dog} alt="" />
     </div>

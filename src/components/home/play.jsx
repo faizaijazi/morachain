@@ -18,7 +18,6 @@ function Play() {
             background: bgImage,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            // height: "250vh"
         }} className="mb-[100px] bg-slate-600 pt-[130px] md:pt-[0px] h-[200vh] md:h-[600px]">
               <div className="h-full flex justify-center md:justify-end">
               <div className="flex justify-center  md:flex-col flex-wrap px-[20px] h-[600px] w-[500px] pt-[20px]">
@@ -43,7 +42,7 @@ function Play() {
                     background: "linear-gradient(90deg,#e1b646,#ff9801,#e1b646)",
                 }} className="p-[8px] rounded-[17px]">
                     <img src={metaverseplay} alt="" className="h-[180px] md:h-[130px] w-[100%]" />
-                    <h1 className="text-[22px] font-bold pt-[20px] pb-[25px] md:pt-[10px] md:pb-[10px] text-center">FRACTIONALIZATION</h1>
+                    <h1 className="text-[15px] font-bold pt-[20px] pb-[25px] md:pt-[10px] md:pb-[10px] text-center">FRACTIONALIZATION</h1>
                 </div>
                 </div>
               </div>

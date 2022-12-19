@@ -48,7 +48,6 @@ const Mortam = () => {
         <div className="flex justify-center mt-[70px]">
           <button
             style={{
-            //   background: "linear-gradient(90deg,#e1b646,#ff9801,#e1b646);",
             backgroundColor: "#e5b13c",
             }}
             className="px-[25px] py-[10px] text-[20px] font-bold rounded-[8px]"

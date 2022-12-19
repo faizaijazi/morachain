@@ -1,10 +1,10 @@
 import './App.css';
-import Home from './pages/home';
-import Discover from './pages/discover';
+import Router from './components/config/router';
 function App() {
   return (
       // <Home />     
-      <Discover />   
+      // <Discover />   
+      <Router />
   );
 }
 
