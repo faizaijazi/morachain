@@ -3,7 +3,7 @@ import vector from "../../assets/morachain-vector.png"
 const Tokenization = () => {
   return (
     <section className=" body-font">
-  <div className="container px-8 md:px-[20px] lg:px-5 py-24 mx-auto flex flex-wrap">
+  <div className="container px-8 md:px-[20px] lg:px-5 py-24 mx-auto flex flex-wrap xl:w-[75%]">
     <div className='md:w-2/4 flex items-end '>
         <img src={vector} alt="" />
     </div>

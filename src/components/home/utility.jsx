@@ -8,7 +8,7 @@ const Utility = () => {
           <h1 className="text-[30px] md:text-[50px] font-bold text-center">
             <span className=" text-[#e1b646]">Morchain</span> Token Utility
           </h1>
-          <p className="mt-[30px] w-[80%] md:text-[18px] text-center text-gray-400 font-medium">
+          <p className="mt-[30px] w-[80%] md:text-[18px] text-center text-gray-400 font-medium 2xl:w-[50%]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type

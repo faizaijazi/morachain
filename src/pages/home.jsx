@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/home/header";
+// import Header from "../components/home/header";
 import Morachain from "../components/home/morachain";
 import Calculator from "../components/home/calculator";
 import Tokenmora from "../components/home/token";
@@ -14,7 +14,7 @@ import Footer from "../components/home/footer";
 const Home = () => {
   return (
     <>
-    <div className="bg-slate-500 ">
+    <div className="">
      <div
       style={{
         paddingTop: "10px",
@@ -24,13 +24,12 @@ const Home = () => {
       }}
       className="bg-slate-800"
     >
-      <div>
-      <Header />
+      {/* <Header /> */}
       <Morachain />
+      </div>
       <Calculator />
-      </div>
-      </div>
     </div>
+      <div>
       <Tokenmora />
       <Worldfirst />
       <Tokenization />
@@ -40,6 +39,7 @@ const Home = () => {
       <Fractional />
       <Utility />
       <Footer />
+      </div>
     </>
   );
 };

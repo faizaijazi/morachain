@@ -13,7 +13,7 @@ const Header = () => {
   }
   return (
     <header className="w-[100%]">
-      <nav className="bg-white py-[30px] flex items-center justify-between  px-[50px] z-[99]">
+      <nav className="bg-white py-[30px] flex items-center justify-between 2xl:justify-start 2xl:px-[310px] px-[50px] z-[99]">
         <div className=" w-full md:w-[200px] flex justify-between items-center">
           <img src={logo} alt="" className="h-[48px] md:h-[72px]" />
           <FontAwesomeIcon
@@ -23,7 +23,7 @@ const Header = () => {
           />
         </div>
         <div className="hidden md:flex w-[80%] justify-around ml-[20px]">
-          <div className=" w-[70%]">
+          <div className=" w-[700px]">
             <ul className="flex justify-between md:w-[350px] lg:w-[500px] text-[15px] lg:text-[20px] font-semibold lg:pl-[30px]">
               <li>
                 <Link to={"/"}>Home</Link>
