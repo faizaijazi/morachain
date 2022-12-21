@@ -4,13 +4,13 @@ import copy from "../../assets/copy.png"
 import "../css/calculator.css"
 const Calculator = () => {
   return (
-    <div className=' px-10 md:px-[20px] lg:px-[70px]  mb-[100px] mt-[-80px] relative z-50 flex justify-center'>
-        <div className='bg-white py-[50px] px-[10px] sm:p-[50px] rounded-[50px] shadow-xl w-[1200px]'>
-            <div className='flex flex-col sm:flex-row justify-between text-center items-center flex-wrap text-[18px]  2xl:font-bold font-semibold'>
-                <div className='w-[150px] flex justify-center pb-[15px] mr-[20px]'>
+    <div className=' px-10 md:px-[20px] lg:px-[70px]  mb-[100px] mt-[-130px] md:mt-[-150px] lg:mt-[-130px] xl:mt-[-110px] 2xl:mt-[-160px] relative z-50 flex justify-center'>
+        <div className='bg-white py-[60px] px-[10px] sm:px-[50px] sm:py-[70px] rounded-[50px] shadow-xl w-[1200px]'>
+            <div className='flex flex-col sm:flex-row justify-between text-center md:text-start items-center flex-wrap text-[18px]  2xl:font-bold font-semibold'>
+                <div className='w-[150px]  flex justify-center pb-[15px] mr-[10px]'>
                     <img src={logo2} alt="" />
                 </div>
-                <div className='w-[150px]  pb-[15px]'>
+                <div className='  pb-[15px]'>
                     <p>Morachain</p>
                     <span>123.000</span>
                 </div>

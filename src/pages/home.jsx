@@ -14,7 +14,7 @@ import Footer from "../components/home/footer";
 const Home = () => {
   return (
     <>
-    <div className="">
+    <div>
      <div
       style={{
         paddingTop: "10px",
@@ -22,7 +22,7 @@ const Home = () => {
         backgroundImage:
           "linear-gradient(90deg, rgb(225, 182, 70), rgb(146, 90, 6), rgb(225, 182, 70))",
       }}
-      className="bg-slate-800"
+      className="bg-slate-800 h-[110vh] md:h-[80vh] 2xl:h-[90vh]"
     >
       <Header />
       <Morachain />

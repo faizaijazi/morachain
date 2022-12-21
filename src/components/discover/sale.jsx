@@ -7,7 +7,7 @@ const Sale = () => {
   <div className="lg:w-[40%] 2xl:w-[50%] md:w-1/2 rounded-lg flex flex-col md:ml-auto w-full mt-10 md:mt-0">
       <img src={dog} alt=""  />
     </div>
-    <div className="lg:w-3/5 mt-[20px] md:mt-[0px] md:w-1/2 flex justify-center flex-col md:pr-[2rem] lg:pr-[4rem] pr-0 md:pl-[20px]">
+    <div className="w-full lg:w-3/5 mt-[20px] md:mt-[0px] md:w-1/2 flex justify-center items-center md:items-start flex-col md:pr-[2rem] lg:pr-[4rem] pr-0 md:pl-[20px]">
       <h1 className="title-font font-bold text-[1.5rem] lg:text-[2.6rem] text-gray-900">$Mor NFT Pre Sale Pricing</h1>
       <p className='mt-[20px] text-[20px] font-bold text-white'>$100000,10 USD Raised</p>
       <h1 className="mt-[20px] title-font font-bold text-[1.5rem] lg:text-[2.6rem] text-gray-900">$Mor NFT Listing date</h1>

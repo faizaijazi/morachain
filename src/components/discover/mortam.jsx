@@ -33,16 +33,16 @@ const Mortam = () => {
         </div>
         <div className="flex justify-center md:justify-between flex-wrap px-[80px] mt-[50px]">
           <div>
-            <img src={boy} alt="" />
+            <img src={boy} alt="" className="2xl:h-[300px]"/>
           </div>
           <div>
-            <img src={girl1} alt="" />
+            <img src={girl1} alt="" className="2xl:h-[300px]"/>
           </div>
           <div>
-            <img src={girl2} alt="" />
+            <img src={girl2} alt="" className="2xl:h-[300px]"/>
           </div>
           <div>
-            <img src={girl3} alt="" />
+            <img src={girl3} alt="" className="2xl:h-[300px]"/>
           </div>
         </div>
         <div className="flex justify-center mt-[70px]">

@@ -10,13 +10,13 @@ import diversityvector from "../../assets/diversityvector.png"
 const Whymorchain = () => {
   return (
     <section className="text-gray-600 body-font">
-  <div className="container px-5 py-24 mx-auto">
+  <div className="container px-5 pt-16 pb-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
-      <h1 className="sm:text-5xl text-2xl font-bold title-font mb-4 text-gray-900">Why <span className='text-[#e1b646] font-bold'>Morachain</span></h1>
-      <p className="lg:w-2/3 mx-auto leading-relaxed  font-medium text-gray-400 text-[18px]">Morachain offers a unique way for opening and unlocking NFT liquidity and gives local community admittance to possessing portions of notable and valuable Real Estate NFTs.</p>
+      <h1 className="sm:text-5xl text-3xl font-bold title-font mb-4 text-gray-900">Why <span className='text-[#e1b646] font-bold'>Morachain</span></h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed  font-medium text-gray-400 text-[15px] sm:text-[18px]">Morachain offers a unique way for opening and unlocking NFT liquidity and gives local community admittance to possessing portions of notable and valuable Real Estate NFTs.</p>
     </div>
     <div className="flex flex-wrap justify-center p-[20px] -m-3">
-      <div className='relative sm:w-[250px] xl:w-[300px] flex flex-col items-center rounded-[20px] shadow-black shadow-sm mb-[20px] sm:mr-[20px] p-[5px]'>
+      <div className='relative sm:w-[250px] xl:w-[300px] flex flex-col items-center rounded-[20px] border mb-[20px] sm:mr-[20px] p-[5px]'>
       <div className='absolute bottom-0 right-0'>
             <img src={accesibilityvector} alt="" />
       </div>
@@ -28,7 +28,7 @@ const Whymorchain = () => {
         <p className='text-center font-semibold md:font-semibold  md:text-[15px] text-[#aba8a0]'>Get admittance to the best real estate deals that were simply accessible to institutional investors. Invest in land in fractions and gain profits with capital appreciation.</p>
       </div> 
       </div>
-      <div className='relative sm:w-[250px] xl:w-[300px] flex flex-col items-center rounded-[20px] shadow-black shadow-sm mb-[20px] sm:mr-[20px] p-[5px]'>
+      <div className='relative sm:w-[250px] xl:w-[300px] flex flex-col items-center rounded-[20px] border mb-[20px] sm:mr-[20px] p-[5px]'>
       <div className='absolute bottom-0 right-0'>
             <img src={freedomvector} alt="" />
       </div>
@@ -40,7 +40,7 @@ const Whymorchain = () => {
         <p className='text-center font-semibold md:font-semibold  md:text-[15px] text-[#aba8a0]'>No lock-in period on investments and no barrier to selective deals delivered on the tokenization stage.</p>
       </div> 
       </div>
-      <div className='relative sm:w-[250px] xl:w-[300px]  flex flex-col items-center rounded-[20px] shadow-black shadow-sm mb-[20px] sm:mr-[20px] p-[5px]'>
+      <div className='relative sm:w-[250px] xl:w-[300px]  flex flex-col items-center rounded-[20px] border mb-[20px] sm:mr-[20px] p-[5px]'>
       <div className='absolute bottom-0 right-0'>
             <img src={diversityvector} alt="" />
       </div>
@@ -52,7 +52,7 @@ const Whymorchain = () => {
         <p className='text-center font-semibold md:font-semibold  md:text-[15px] text-[#aba8a0]'>Get admittance to the best real estate deals that were simply accessible to institutional investors. Invest in land in fractions and gain profits with capital appreciation.</p>
       </div> 
       </div>
-      <div className='relative z-[99] sm:w-[250px] xl:w-[300px] flex flex-col items-center rounded-[20px] shadow-black shadow-sm mb-[20px] sm:mr-[20px] p-[5px]'>
+      <div className='relative z-[99] sm:w-[250px] xl:w-[300px] flex flex-col items-center rounded-[20px] border mb-[20px] sm:mr-[20px] p-[5px]'>
       <div className='absolute bottom-1 right-2'>
             <img src={creativityvector} alt=""/>
       </div>
