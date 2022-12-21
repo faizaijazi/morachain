@@ -4,7 +4,7 @@ import email from "../../assets/email.png"
 const Footer = () => {
   return (
     <>
-    <div className='bg-black text-white flex justify-around flex-wrap py-24 px-[20px]'>
+    <div className='bg-black text-white flex justify-around flex-wrap py-24 px-[20px] 2xl:px-[200px]'>
         <div className='text-center h-[120px] flex flex-col justify-between items-center mr-[10px] mb-[40px]'>
             <img src={phone} alt="" className='h-[50px] w-[50px]'/>
             <h1 className='text-[25px] font-bold'>CONTACT NUMBER</h1>

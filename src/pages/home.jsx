@@ -1,5 +1,5 @@
 import React from "react";
-// import Header from "../components/home/header";
+import Header from "../components/home/header";
 import Morachain from "../components/home/morachain";
 import Calculator from "../components/home/calculator";
 import Tokenmora from "../components/home/token";
@@ -24,7 +24,7 @@ const Home = () => {
       }}
       className="bg-slate-800"
     >
-      {/* <Header /> */}
+      <Header />
       <Morachain />
       </div>
       <Calculator />

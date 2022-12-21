@@ -3,9 +3,9 @@ import dog from "../../assets/dog.png"
 const Sale = () => {
   return (
     <section className=" body-font">
-  <div className="container px-8 md:px-[20px] lg:px-10 pt-24 pb-[20px] md:pb-[50px] mx-auto flex flex-wrap md:flex-nowrap items-center">
-  <div className="lg:w-[40%] md:w-1/2 rounded-lg flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-      <img src={dog} alt="" />
+  <div className="container h-auto md:h-[100vh] px-8 md:px-[20px] lg:px-10 2xl:px-[100px] pt-24 pb-[20px] md:pb-[50px] mx-auto flex flex-wrap md:flex-nowrap items-center">
+  <div className="lg:w-[40%] 2xl:w-[50%] md:w-1/2 rounded-lg flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+      <img src={dog} alt=""  />
     </div>
     <div className="lg:w-3/5 mt-[20px] md:mt-[0px] md:w-1/2 flex justify-center flex-col md:pr-[2rem] lg:pr-[4rem] pr-0 md:pl-[20px]">
       <h1 className="title-font font-bold text-[1.5rem] lg:text-[2.6rem] text-gray-900">$Mor NFT Pre Sale Pricing</h1>

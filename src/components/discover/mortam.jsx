@@ -9,7 +9,7 @@ const Mortam = () => {
   return (
     <div
       style={{ background: "linear-gradient(90deg,#e1b646,#ff9801,#e1b646)" }}
-    >
+    className="2xl:px-[250px]" >
       <div
         style={{
           background: bgImage,

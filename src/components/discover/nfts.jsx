@@ -6,7 +6,7 @@ import dog4 from "../../assets/dog4.png"
 const Nfts = () => {
   return (
     <>
-      <div className="mb-[20px] mt-[100px]">
+      <div className="mb-[20px] mt-[100px] 2xl:px-[160px]">
         <div className="flex flex-col items-center px-[20px]">
           <h1 className="text-[30px] md:text-[50px] font-bold text-center">
           Morachain NFTS’
@@ -16,7 +16,7 @@ const Nfts = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center sm:justify-between flex-wrap px-[70px] mt-[50px]">
+      <div className="flex justify-center sm:justify-between flex-wrap px-[70px] mt-[50px] 2xl:px-[290px]">
         <div className="mb-[20px]">
             <img src={dog1} alt="" />
         </div>
