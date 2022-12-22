@@ -3,6 +3,7 @@ import logo from "../../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import "../css/calculator.css"
 const Header = () => {
   const navBar = useRef();
   function navOpen() {
@@ -11,6 +12,7 @@ const Header = () => {
   function navClose() {
     navBar.current.style.display = "none";
   }
+
   return (
     <header className="w-[100%]">
       <nav className="bg-white py-[30px] flex items-center justify-between 2xl:justify-start 2xl:px-[300px] px-[50px] z-[99]">
@@ -26,7 +28,7 @@ const Header = () => {
           <div className=" w-[700px]">
             <ul className="flex justify-between md:w-[350px] lg:w-[500px] text-[15px] lg:text-[20px] font-semibold lg:pl-[30px]">
               <li>
-                <Link to={"/"}>Home</Link>
+                <Link to={"/"} >Home</Link>
               </li>
               <li>
                 <Link to={"/Discover"}>Discover</Link>
@@ -44,7 +46,7 @@ const Header = () => {
           </div>
           <div className="text-[15px] lg:text-[20px] flex justify-center font-semibold pl-[10px] md:w-[180px] lg:w-[250px]">
             <div className="flex justify-between w-[230px]">
-              <a href=".">login</a>
+            <Link to={"/Login"}>Login</Link>
               <a href="." className="border-l-[2px] pl-[15px]">
                 Signup
               </a>

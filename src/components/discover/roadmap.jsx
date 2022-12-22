@@ -21,7 +21,7 @@ const Roadmap = () => {
     </div>
     <div className='mb-[100px] flex justify-center  xl:justify-between flex-wrap px-[20px] md:px-[80px] 2xl:px-[300px]'>
         <div className='relative 2xl:w-[300px]'>
-            <img src={messegeBox1} alt="" className='sm:h-[450px] 2xl:h-[400px] sm:w-[550px] md:w-[400px] xl:w-[550px] mb-[150px] '/>
+            <img src={messegeBox1} alt="" className='sm:h-[450px] 2xl:h-[400px] sm:w-[550px] md:w-[400px] xl:w-[550px] mb-[150px]  '/>
             <div style={{boxShadow: "0px 0px 5px 0px gray"}} className='flex flex-col justify-center bg-white border-[2px] border-white text-gray-500 absolute top-[-20px] left-[20px] sm:top-[-40px] sm:left-[15px] md:left-[10px] h-[220px] sm:h-[250px] w-[65%] sm:w-[80%] rounded-xl'>
                 <img src={clock} alt="" className='h-[80px] w-[80px] absolute top-[-40px] left-[50px] sm:top-[-50px] sm:left-[180px] md:left-[110px] 2xl:left-[75px]' />
                 <ul className='messegeList sm:pl-[20px] decoration-white text-[13px] sm:text-[18px]'>
@@ -33,6 +33,9 @@ const Roadmap = () => {
                     <li>Lorem ipsum dolor sit.</li>
                     <li>Lorem ipsum dolor sit.</li>
                 </ul>
+                <div className='absolute mt-[330px] ml-[40px] sm:mt-[410px] sm:ml-[140px] md:mt-[400px] md:ml-[95px] xl:mt-[420px] xl:ml-[150px] 2xl:mt-[380px] 2xl:ml-[50px] text-black'>
+                    <h1 className='text-[20px] sm:text-[30px] font-bold'>Mid 2022</h1>
+                </div>
             </div>
         </div>
         <div className='relative 2xl:w-[300px]'>
@@ -48,6 +51,9 @@ const Roadmap = () => {
                     <li>Lorem ipsum dolor sit.</li>
                     <li>Lorem ipsum dolor sit.</li>
                 </ul>
+                <div className='absolute mt-[330px] ml-[40px] sm:mt-[410px] sm:ml-[140px] md:mt-[400px] md:ml-[95px] xl:mt-[420px] xl:ml-[150px] 2xl:mt-[380px] 2xl:ml-[50px] text-white'>
+                    <h1 className='text-[20px] sm:text-[30px] font-bold'>Mid 2022</h1>
+                </div>
             </div>
         </div>
         <div className='relative 2xl:w-[300px]'>
@@ -63,6 +69,9 @@ const Roadmap = () => {
                     <li>Lorem ipsum dolor sit.</li>
                     <li>Lorem ipsum dolor sit.</li>
                 </ul>
+                <div className='absolute mt-[330px] ml-[40px] sm:mt-[410px] sm:ml-[140px] md:mt-[400px] md:ml-[95px] xl:mt-[420px] xl:ml-[150px] 2xl:mt-[380px] 2xl:ml-[50px] text-black'>
+                    <h1 className='text-[20px] sm:text-[30px] font-bold'>Late 2022</h1>
+                </div>
             </div>
         </div>
         <div className='relative 2xl:w-[300px]'>
@@ -78,6 +87,9 @@ const Roadmap = () => {
                     <li>Lorem ipsum dolor sit.</li>
                     <li>Lorem ipsum dolor sit.</li>
                 </ul>
+                <div className='absolute mt-[330px] ml-[70px] sm:mt-[410px] sm:ml-[180px] md:mt-[400px] md:ml-[120px] xl:mt-[420px] xl:ml-[190px] 2xl:mt-[380px] 2xl:ml-[80px] text-black'>
+                    <h1 className='text-[20px] sm:text-[30px] font-bold'>2023</h1>
+                </div>
             </div>
         </div>
     </div>

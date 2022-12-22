@@ -8,7 +8,7 @@ const Mortam = () => {
   let bgImage = `url(${discoverImage})`;
   return (
     <div
-      style={{ background: "linear-gradient(90deg,#e1b646,#ff9801,#e1b646)" }}
+      style={{ background: "linear-gradient(90deg,#e1b646,#925a06,#e1b646)" }}
     className="2xl:px-[250px]" >
       <div
         style={{
@@ -47,9 +47,7 @@ const Mortam = () => {
         </div>
         <div className="flex justify-center mt-[70px]">
           <button
-            style={{
-            backgroundColor: "#e5b13c",
-            }}
+            style={{background: "linear-gradient(90deg,#e1b646,#ff9801,#e1b646)"}}
             className="px-[25px] py-[10px] text-[20px] font-bold rounded-[8px]"
           >
             VIEW MORE

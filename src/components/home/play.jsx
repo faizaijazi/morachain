@@ -20,27 +20,27 @@ function Play() {
         }} className="mb-[100px] bg-slate-600 pt-[130px] md:pt-[0px] md:h-[600px] 2xl:h-[800px] xl:flex xl:justify-center">
               <div className="h-full flex justify-center xl:items-center  md:justify-end  xl:w-[75%]">
               <div className="flex justify-center md:flex-col flex-wrap px-[20px] md:h-[600px] 2xl:h-[800px] w-[700px] md:pt-[100px]">
-                <div className="border-[#e1b646] border-[2px] p-[5px] rounded-[17px] w-[100%] md:w-[200px] lg:w-[300px] mb-[20px] xl:mr-[20px]">
+                <div className="border-[#e1b646] border-[2px] p-[5px] rounded-[17px] w-[300px] sm:w-[400px] md:w-[200px] lg:w-[300px] mb-[20px] xl:mr-[20px]">
                 <div style={{
                     background: "linear-gradient(90deg,#e1b646,#ff9801,#e1b646)",
                 }} className="p-[8px] 2xl:p-[20px] xl:px-[15px] rounded-[17px] ">
-                    <img src={monkey} alt="" className="h-[180px] md:h-[130px] 2xl:h-auto w-[100%]" />
+                    <img src={monkey} alt="" className="h-[200px] md:h-[130px] 2xl:h-auto w-[100%]" />
                     <h1 className="text-[22px] font-bold pt-[20px] pb-[25px] md:pt-[10px] md:pb-[10px] text-center">NFT</h1>
                 </div>
                 </div>
-                <div className="border-[#e1b646] border-[2px] p-[5px] rounded-[17px] w-[100%] md:w-[200px] lg:w-[300px] mb-[20px] xl:mr-[20px]">
+                <div className="border-[#e1b646] border-[2px] p-[5px] rounded-[17px] w-[300px] sm:w-[400px] md:w-[200px] lg:w-[300px] mb-[20px] xl:mr-[20px]">
                 <div style={{
                     background: "linear-gradient(90deg,#e1b646,#ff9801,#e1b646)",
                 }} className="p-[8px]  2xl:p-[20px] xl:px-[15px] rounded-[17px]">
-                    <img src={metaverseplay} alt="" className="h-[180px] md:h-[130px] 2xl:h-auto w-[100%]" />
+                    <img src={metaverseplay} alt="" className="h-[200px] md:h-[130px] 2xl:h-auto w-[100%]" />
                     <h1 className="text-[22px] font-bold pt-[20px] pb-[25px] md:pt-[10px] md:pb-[10px] text-center">METAVERSE</h1>
                 </div>
                 </div>
-                <div className="border-[#e1b646] border-[2px] p-[5px] rounded-[17px] w-[100%] md:w-[200px] lg:w-[300px] mb-[20px] xl:mr-[20px]">
+                <div className="border-[#e1b646] border-[2px] p-[5px] rounded-[17px] w-[300px] sm:w-[400px] md:w-[200px] lg:w-[300px] mb-[20px] xl:mr-[20px]">
                 <div style={{
                     background: "linear-gradient(90deg,#e1b646,#ff9801,#e1b646)",
                 }} className="p-[8px] 2xl:p-[20px] xl:px-[15px] rounded-[17px]">
-                    <img src={nftplay} alt="" className="h-[180px] md:h-[130px] 2xl:h-auto w-[100%]" />
+                    <img src={nftplay} alt="" className="h-[200px] md:h-[130px] 2xl:h-auto w-[100%]" />
                     <h1 className="text-[22px] sm:text-[17px] lg:text-[22px] font-bold pt-[20px] pb-[25px] md:pt-[10px] md:pb-[10px] text-center">FRACTIONALIZATION</h1>
                 </div>
                 </div>

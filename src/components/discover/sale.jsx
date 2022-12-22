@@ -1,9 +1,11 @@
 import React from 'react'
 import dog from "../../assets/dog.png"
+import saleBackground from "../../assets/saleBackground.png"
 const Sale = () => {
+  let bgImage = `url(${saleBackground})`;
   return (
     <section className=" body-font">
-  <div className="container h-auto md:h-[100vh] px-8 md:px-[20px] lg:px-10 2xl:px-[100px] pt-24 pb-[20px] md:pb-[50px] mx-auto flex flex-wrap md:flex-nowrap items-center">
+  <div className="container h-auto  md:h-[100vh] px-8 md:px-[20px] lg:px-10 2xl:px-[100px] pt-24 pb-[20px] md:pb-[50px] mx-auto flex flex-wrap md:flex-nowrap items-center">
   <div className="lg:w-[40%] 2xl:w-[50%] md:w-1/2 rounded-lg flex flex-col md:ml-auto w-full mt-10 md:mt-0">
       <img src={dog} alt=""  />
     </div>

@@ -16,7 +16,7 @@ const Whymorchain = () => {
       <p className="lg:w-2/3 mx-auto leading-relaxed  font-medium text-gray-400 text-[15px] sm:text-[18px]">Morachain offers a unique way for opening and unlocking NFT liquidity and gives local community admittance to possessing portions of notable and valuable Real Estate NFTs.</p>
     </div>
     <div className="flex flex-wrap justify-center p-[20px] -m-3">
-      <div className='relative sm:w-[250px] xl:w-[300px] flex flex-col items-center rounded-[20px] border mb-[20px] sm:mr-[20px] p-[5px]'>
+      <div className='relative sm:w-[250px] xl:w-[300px] flex flex-col items-center rounded-[20px] border mb-[20px] sm:mr-[20px] p-[5px] hover:top-[15px] cursor-pointer shadow-lg'>
       <div className='absolute bottom-0 right-0'>
             <img src={accesibilityvector} alt="" />
       </div>
@@ -28,7 +28,7 @@ const Whymorchain = () => {
         <p className='text-center font-semibold md:font-semibold  md:text-[15px] text-[#aba8a0]'>Get admittance to the best real estate deals that were simply accessible to institutional investors. Invest in land in fractions and gain profits with capital appreciation.</p>
       </div> 
       </div>
-      <div className='relative sm:w-[250px] xl:w-[300px] flex flex-col items-center rounded-[20px] border mb-[20px] sm:mr-[20px] p-[5px]'>
+      <div className='relative sm:w-[250px] xl:w-[300px] flex flex-col items-center rounded-[20px] border mb-[20px] sm:mr-[20px] p-[5px] hover:top-[15px] cursor-pointer shadow-lg'>
       <div className='absolute bottom-0 right-0'>
             <img src={freedomvector} alt="" />
       </div>
@@ -40,7 +40,7 @@ const Whymorchain = () => {
         <p className='text-center font-semibold md:font-semibold  md:text-[15px] text-[#aba8a0]'>No lock-in period on investments and no barrier to selective deals delivered on the tokenization stage.</p>
       </div> 
       </div>
-      <div className='relative sm:w-[250px] xl:w-[300px]  flex flex-col items-center rounded-[20px] border mb-[20px] sm:mr-[20px] p-[5px]'>
+      <div className='relative sm:w-[250px] xl:w-[300px]  flex flex-col items-center rounded-[20px] border mb-[20px] sm:mr-[20px] p-[5px] hover:top-[15px] cursor-pointer shadow-lg'>
       <div className='absolute bottom-0 right-0'>
             <img src={diversityvector} alt="" />
       </div>
@@ -52,7 +52,7 @@ const Whymorchain = () => {
         <p className='text-center font-semibold md:font-semibold  md:text-[15px] text-[#aba8a0]'>Get admittance to the best real estate deals that were simply accessible to institutional investors. Invest in land in fractions and gain profits with capital appreciation.</p>
       </div> 
       </div>
-      <div className='relative z-[99] sm:w-[250px] xl:w-[300px] flex flex-col items-center rounded-[20px] border mb-[20px] sm:mr-[20px] p-[5px]'>
+      <div className='relative z-[99] sm:w-[250px] xl:w-[300px] flex flex-col items-center rounded-[20px] border mb-[20px] sm:mr-[20px] p-[5px] hover:top-[15px] cursor-pointer shadow-lg'>
       <div className='absolute bottom-1 right-2'>
             <img src={creativityvector} alt=""/>
       </div>
