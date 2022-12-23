@@ -59,7 +59,7 @@ const Login = () => {
                 </div>
               </div>
               <div className='mt-[30px]'>
-                <button className='bg-[#f4a319] font-bold text-[20px] w-full h-[50px] rounded-xl'>Sign-In Now</button>
+                <button className='bg-[#f4a319] font-bold text-[20px] w-full h-[50px] rounded-xl'>Log-In Now</button>
               </div>
               <div className='mt-[20px] lg:text-[12px] xl:text-[14px] 2xl:text-[16px] flex flex-col md:flex-row md:justify-between font-medium'>
                 <span>Forgot Password? Click Here</span>

@@ -47,9 +47,9 @@ const Header = () => {
           <div className="text-[15px] lg:text-[20px] flex justify-center font-semibold pl-[10px] md:w-[180px] lg:w-[250px]">
             <div className="flex justify-between w-[230px]">
             <Link to={"/Login"}>Login</Link>
-              <a href="." className="border-l-[2px] pl-[15px]">
+              <Link to={"/Signup"} className="border-l-[2px] pl-[15px]">
                 Signup
-              </a>
+              </Link>
               <a href=".">connect</a>
             </div>
           </div>
@@ -87,12 +87,12 @@ const Header = () => {
         </div>
         <div className="h-[150px] flex flex-col items-center justify-around font-bold">
           <div className="flex justify-between w-[200px]">
-            <a href="." className="border px-[15px] py-[10px] bg-[#e1b646] text-white rounded-[10px]">login</a>
-            <a href="." className="border px-[15px] py-[10px] bg-[#e1b646] text-white rounded-[10px]">Signup</a>
+            <Link to={"/Login"} className="border px-[15px] py-[10px] bg-[#e1b646] text-white rounded-[10px]">login</Link>
+            <Link to={"/Signup"} className="border px-[15px] py-[10px] bg-[#e1b646] text-white rounded-[10px]">Signup</Link>
           </div>
-          <a href="." style={{
+          <Link href="." style={{
             background: "linear-gradient(90deg,#e1b646,#925a06,#e1b646)"
-          }} className="border px-[15px] py-[10px] bg-[#e1b646] text-white rounded-[10px]">connect</a>
+          }} className="border px-[15px] py-[10px] bg-[#e1b646] text-white rounded-[10px]">connect</Link>
         </div>
       </div>
     </header>
