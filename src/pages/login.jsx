@@ -22,7 +22,7 @@ const Login = () => {
           }}
         >
           <div>
-            <Header />
+            <Header condition={false}/>
             <div className="h-[45vh] flex justify-center items-center">
               <h1 className="text-[65px] font-semibold">LOGIN</h1>
             </div>

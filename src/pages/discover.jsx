@@ -23,7 +23,7 @@ const Discover = () => {
       backgroundImage: bgImage,
      }}>
       <div>
-      <Header />
+      <Header condition={true}/>
       <Sale/>
       </div>
       </div>

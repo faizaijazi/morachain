@@ -30,7 +30,7 @@ const Home = () => {
             style={{
               backgroundImage: bgImage,
             }} className=" h-[110vh] md:h-[80vh] 2xl:h-[90vh]">
-            <Header />
+            <Header condition={true}/>
             <Morachain />
           </div>
         </div>

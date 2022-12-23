@@ -2,9 +2,13 @@ import React from "react";
 import Header from "../components/home/header";
 import Footer from "../components/home/footer";
 import phone from "../assets/phone.png";
+import textMessege from "../assets/textMessege.png"
 // import lock from '../assets/lock.png'
 import saleBackground from "../assets/saleBackground.png";
 import signup from "../assets/login.png";
+import signupPhone from "../assets/signupPhone.png"
+import location from "../assets/location.png"
+import lock from "../assets/lock.png";
 const Signup = () => {
   let bgImage = `url(${saleBackground})`;
   return (
@@ -22,7 +26,7 @@ const Signup = () => {
           }}
         >
           <div>
-            <Header />
+            <Header condition={false}/>
             <div className="h-[45vh] flex justify-center items-center">
               <h1 className="text-[65px] font-semibold">SignUp</h1>
             </div>
@@ -68,7 +72,7 @@ const Signup = () => {
               <label htmlFor="">Email Address*</label>
               <div className="mt-[10px] flex items-center w-full  h-[40px] py-[25px] px-[10px] border-[1.5px] border-[#f5a218] rounded-xl">
                 <div className="mr-[5px] bg-[#f5a218] p-[10px] rounded-lg ">
-                  <img src={phone} alt="" />
+                  <img src={textMessege} alt="" />
                 </div>
                 <input
                   type="email"
@@ -81,7 +85,7 @@ const Signup = () => {
               <label htmlFor="">Phone Number*</label>
               <div className="mt-[10px] flex items-center w-full h-[40px] py-[25px] px-[10px] border-[1.5px] border-[#f5a218] rounded-xl">
                 <div className="mr-[5px] bg-[#f5a218] p-[10px] rounded-lg ">
-                  <img src={phone} alt="" />
+                  <img src={signupPhone} alt="" />
                 </div>
                 <input
                   type="email"
@@ -94,7 +98,7 @@ const Signup = () => {
               <label htmlFor="">Address 1*</label>
               <div className="mt-[10px] flex items-center w-full  h-[40px] py-[25px] px-[10px] border-[1.5px] border-[#f5a218] rounded-xl">
                 <div className="mr-[5px] bg-[#f5a218] p-[10px] rounded-lg ">
-                  <img src={phone} alt="" />
+                  <img src={location} alt="" />
                 </div>
                 <input
                   type="email"
@@ -107,7 +111,7 @@ const Signup = () => {
               <label htmlFor="">Address 2*</label>
               <div className="mt-[10px] flex items-center w-full h-[40px] py-[25px] px-[10px] border-[1.5px] border-[#f5a218] rounded-xl">
                 <div className="mr-[5px] bg-[#f5a218] p-[10px] rounded-lg ">
-                  <img src={phone} alt="" />
+                  <img src={location} alt="" />
                 </div>
                 <input
                   type="email"
@@ -120,7 +124,7 @@ const Signup = () => {
               <label htmlFor="">Password*</label>
               <div className="mt-[10px] flex items-center w-full h-[40px] py-[25px] px-[10px] border-[1.5px] border-[#f5a218] rounded-xl">
                 <div className="mr-[5px] bg-[#f5a218] p-[10px] rounded-lg ">
-                  <img src={phone} alt="" />
+                  <img src={lock} alt="" />
                 </div>
                 <input
                   type="email"
@@ -133,7 +137,7 @@ const Signup = () => {
               <label htmlFor="">Confirm Password*</label>
               <div className="mt-[10px] flex items-center w-full h-[40px] py-[25px] px-[10px] border-[1.5px] border-[#f5a218] rounded-xl">
                 <div className="mr-[5px] bg-[#f5a218] p-[10px] rounded-lg ">
-                  <img src={phone} alt="" />
+                  <img src={lock} alt="" />
                 </div>
                 <input
                   type="email"
