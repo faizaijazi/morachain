@@ -49,7 +49,7 @@ const Signup = () => {
                   <img src={phone} alt="" />
                 </div>
                 <input
-                  type="email"
+                  type="text"
                   placeholder="First Name"
                   className="h-[40px] w-full border-none outline-none"
                 />
@@ -62,7 +62,7 @@ const Signup = () => {
                   <img src={phone} alt="" />
                 </div>
                 <input
-                  type="email"
+                  type="text"
                   placeholder="Last Name"
                   className="h-[40px] w-full border-none outline-none"
                 />
@@ -88,7 +88,7 @@ const Signup = () => {
                   <img src={signupPhone} alt="" />
                 </div>
                 <input
-                  type="email"
+                  type="number"
                   placeholder="Phone Number"
                   className="h-[40px] w-full border-none outline-none"
                 />
@@ -101,7 +101,7 @@ const Signup = () => {
                   <img src={location} alt="" />
                 </div>
                 <input
-                  type="email"
+                  type="text"
                   placeholder="Address"
                   className="h-[40px] w-full border-none outline-none"
                 />
@@ -114,7 +114,7 @@ const Signup = () => {
                   <img src={location} alt="" />
                 </div>
                 <input
-                  type="email"
+                  type="text"
                   placeholder="Enter Your Email Address"
                   className="h-[40px] w-full border-none outline-none"
                 />
@@ -127,7 +127,7 @@ const Signup = () => {
                   <img src={lock} alt="" />
                 </div>
                 <input
-                  type="email"
+                  type="password"
                   placeholder="Password"
                   className="h-[40px] w-full border-none outline-none"
                 />
@@ -140,7 +140,7 @@ const Signup = () => {
                   <img src={lock} alt="" />
                 </div>
                 <input
-                  type="email"
+                  type="password"
                   placeholder="Confirm Password"
                   className="h-[40px] w-full border-none outline-none"
                 />

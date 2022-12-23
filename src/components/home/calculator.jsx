@@ -1,13 +1,13 @@
 import React from 'react'
 import logo2 from "../../assets/logo2.png"
 import copy from "../../assets/copy.png"
-import "../css/calculator.css"
+import "../css/style.css"
 const Calculator = () => {
   return (
     <div className=' px-10 md:px-[20px] lg:px-[70px]  mb-[100px] mt-[-130px] md:mt-[-150px] lg:mt-[-130px] xl:mt-[-110px] 2xl:mt-[-160px] relative z-50 flex justify-center'>
         <div className='bg-white py-[60px] px-[10px] sm:px-[50px] sm:py-[70px] rounded-[50px] shadow-xl w-[1200px]'>
             <div className='flex flex-col sm:flex-row justify-between text-center md:text-start items-center flex-wrap text-[18px]  2xl:font-bold font-semibold'>
-                <div className='w-[150px]  flex justify-center pb-[15px] mr-[10px]'>
+                <div className='w-[150px]  flex justify-center pb-[15px]'>
                     <img src={logo2} alt="" />
                 </div>
                 <div className='  pb-[15px]'>
@@ -39,7 +39,7 @@ const Calculator = () => {
                     className='w-[80px] text-center font-semibold border-[2px] border-[#e1b646] rounded-l-[10px]'>
                         <span>Mor Address</span>
                     </div>
-                    <input type="text" className='w-[50%] sm:w-[70%] border-none outline-none'/>
+                    <input type="text" className='w-[50%] sm:w-[70%] border-none outline-none pl-[10px]'/>
                     <div>
                         <img src={copy} alt="" />
                     </div>
@@ -51,7 +51,7 @@ const Calculator = () => {
                     className='w-[80px] text-center font-semibold border-[2px] border-[#e1b646] rounded-l-[10px]'>
                         <span>Mor Address</span>
                     </div>
-                    <input type="text" className='w-[50%] sm:w-[70%] border-none outline-none'/>
+                    <input type="text" className='w-[50%] sm:w-[70%] border-none outline-none pl-[10px]'/>
                     <div>
                         <img src={copy} alt="" />
                     </div>
@@ -63,7 +63,7 @@ const Calculator = () => {
                     className='w-[80px] text-center font-semibold border-[2px] border-[#e1b646] rounded-l-[10px]'>
                         <span>Mor Address</span>
                     </div>
-                    <input type="text" className='w-[50%] sm:w-[70%] border-none outline-none'/>
+                    <input type="text" className='w-[50%] sm:w-[70%] border-none outline-none pl-[10px]'/>
                     <div>
                         <img src={copy} alt="" />
                     </div>

@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import "../css/calculator.css"
+import "../css/style.css"
 const Header = ({condition}) => {
   const navBar = useRef();
   function navOpen() {
@@ -82,9 +82,11 @@ const Header = ({condition}) => {
             <li>
               <Link href=".">NFTs</Link>
             </li>
-             <li>
-              <Link href=".">NTS's Presale</Link>
-            </li> 
+            {
+                condition &&  <li>
+                <Link>NTS's Presale</Link>
+              </li>
+              }
           </ul>
         </div>
         <div className="h-[150px] flex flex-col items-center justify-around font-bold">

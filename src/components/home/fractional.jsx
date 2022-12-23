@@ -1,6 +1,6 @@
 import React from 'react'
 import house from "../../assets/house.png"
-import "../css/calculator.css"
+import "../css/style.css"
 const Fractional = () => {
   return (
     <section className=" body-font">

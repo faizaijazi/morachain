@@ -1,6 +1,6 @@
 import React from 'react'
 import coin from "../../assets/coin-lg.png"
-import "../css/calculator.css"
+import "../css/style.css"
 const Utility = () => {
   return (
     <div>

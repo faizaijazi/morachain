@@ -1,7 +1,7 @@
 import React from "react";
 import background from "../../assets/background.png";
 import lady from "../../assets/lady.png";
-import "../css/worldfirst.css"
+import "../css/style.css"
 const Worldfirst = () => {
   let bgImage = `url(${background})`;
   return (
