@@ -34,7 +34,10 @@ const Signup = () => {
           <img src={signup} alt="" className="w-[70%]" />
         </div>
         <div className="w-full lg:w-[50%] mt-[50px] lg:mt-[0px] flex flex-col  justify-center lg:justify-start px-[0px] lg:pr-[50px] xl:pr-[100px] 2xl:pr-[180px]">
-          <form action="" className="grid grid-cols-2 gap-x-5 lg:gap-x-8 text-[15x] sm:text-[18px]">
+          <form
+            action=""
+            className="grid grid-cols-2 gap-x-5 lg:gap-x-8 text-[15x] sm:text-[18px]"
+          >
             <div className="">
               <label htmlFor="">First Name*</label>
               <div className="mt-[10px] flex items-center w-full  h-[40px] py-[25px] px-[10px] border-[1.5px] border-[#f5a218] rounded-xl">
@@ -141,13 +144,13 @@ const Signup = () => {
             </div>
           </form>
           <div className="mt-[30px] w-[full] bg-slate-50">
-              <button className="bg-[#f4a319] font-bold text-[20px] w-full h-[50px] rounded-xl">
-                Sign-In Now
-              </button>
-            </div>
-            <div className="text-[14px] sm:text-[16px] mt-[20px] flex justify-center">
-              <span>Already Have An Account? Signin Now</span>
-            </div>
+            <button className="bg-[#f4a319] font-bold text-[20px] w-full h-[50px] rounded-xl">
+              Sign-In Now
+            </button>
+          </div>
+          <div className="text-[14px] sm:text-[16px] mt-[20px] flex justify-center">
+            <span>Already Have An Account? Signin Now</span>
+          </div>
         </div>
       </div>
       <div>
